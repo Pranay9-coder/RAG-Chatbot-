@@ -1,0 +1,13 @@
+prefix=D:/Agentic AI/RAG chatbot/venv/Library
+exec_prefix=D:/Agentic AI/RAG chatbot/venv/Library
+libdir=D:/Agentic AI/RAG chatbot/venv/Library/lib
+sharedlibdir=D:/Agentic AI/RAG chatbot/venv/Library/lib
+includedir=D:/Agentic AI/RAG chatbot/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
